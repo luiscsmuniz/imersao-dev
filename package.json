@@ -1,0 +1,34 @@
+{
+  "name": "imersao-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Luis Carlos de Souza",
+    "email": "luisc.souzamuniz@gmail.com",
+    "url": "https://github.com/luiscsmuniz"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "node server.js",
+    "test": ""
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {}
+}
