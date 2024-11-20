@@ -1,13 +1,12 @@
 import express from 'express'
+import { postsRoutes } from './src/routes/postsRoutes.js'
 
 const app = express()
 
+app.use(express.json())
+
 app.listen(3000, () => {
-  console.log('Server ready in localhost:3000')
+  console.log('Server ready in http://localhost:3000')
 })
 
-console.log(process.env.GEMINI_API_KEY)
-
-app.get('/api', (req, res) => {
-  res.status(200).send('hello world')
-})
+postsRoutes(app)
