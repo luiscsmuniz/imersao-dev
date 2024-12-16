@@ -9,4 +9,6 @@ app.listen(3000, () => {
   console.log('Server ready in http://localhost:3000')
 })
 
+app.use(express.static('images'))
+
 postsRoutes(app)
